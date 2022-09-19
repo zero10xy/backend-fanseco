@@ -40,7 +40,7 @@ class MediaController extends Controller
                     . env("AWS_BUCKET")
                     . ".s3."
                     . env("AWS_DEFAULT_REGION")
-                    . ".amazonaws.com/"
+                    . ".amazonaws.com/media/"
                     . $url
             ]);
         };
